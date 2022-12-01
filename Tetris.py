@@ -428,7 +428,7 @@ def win_menu():  # окно меню
     pygame.draw.rect(win, color_rect,
                      (312, 400, 200, 75), 8)
     mesg = font.render("Новая игра", True, (255, 255, 255))
-    win.blit(mesg, [s_width / 2 - 65,
+    win.blit(mesg, [s_width / 2 - 75,
                     s_height / 2 - 55])
     mesg = font.render("Выйти", True, (255, 255, 255))
     win.blit(mesg, [s_width / 2 - 35,
