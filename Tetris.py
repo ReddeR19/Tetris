@@ -446,9 +446,9 @@ def main_menu(win):  # меню
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
                     x, y = pygame.mouse.get_pos()
-                    if (x > 250 and x < 600 and y > 120 and y < 320):
+                    if (x > 312 and x < 515 and y > 270 and y < 345):
                         main(win)
-                    elif (x > 250 and x < 600 and y > 350 and y < 550):
+                    elif (x > 312 and x < 515 and y > 400 and y < 475):
                         pygame.quit()
                         sys.exit()
 
